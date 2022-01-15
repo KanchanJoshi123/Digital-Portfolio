@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+body
+{
+  font-family: 'El Messiri', sans-serif;
+  color:#1f1f21; 
+ /* background: rgba(0, 0, 0, 0.5);*/
+ /*background-color: #F0E68C;*/
+ background-color:#efefef;
+ width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+	overflow-x: hidden;
+	/*background-image: url(bg.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;*/
+}
+h1,h2,h3
+{
+	font-weight: bolder;
+}
+.navbar
+{
+	background-color: #1f1f21;
+	font-weight: bolder;
+	/*margin-top: -15px;*/
+}
+.heading:link
+{
+color: white;
+}
+#o1,#t3,#f5,#t2,#f4
+{
+	color: white;
+	height: 65px;
+	font-size: 15px;
+}
+#o1:hover,#t2:hover,#t3:hover,#f4:hover,#f5:hover
+{
+	background-color: white;
+	color: #1f1f21;
+}
+li,.card-text
+{
+	line-height: 200%;
+}
+.intro
+{
+	
+	line-height: 200%;
+	color: #1f1f21;
+	padding-left: 7%;
+}
+.myimage2
+{
+	border-radius: 50%;
+}
+.introback
+{
+	/*margin-top: -1%;	*/
+	box-shadow: 5px 5px 5px 5px darkgrey, inset 5px 5px 5px 5px darkgrey;
+	margin-left: 10%;
+	color: white;
+	background-color:  #f8f8ff;
+	padding: 2%;
+	height: 70%;
+	width: 80%;
+}
+.titles
+{
+	width: 100%;
+	margin-top: 20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	text-shadow: 1px 1px #A9A9A9;
+	font-weight: bolder;
+	font-size:50px;
+	background-color: #1f1f21;
+	color: #f8f8ff;
+}
+.footer
+{
+	padding:10px;	
+	font-size:20px;
+	background-color: #1f1f21;
+	color: #f8f8ff;
+}
+.alternate
+{
+	color: white;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	background-color: #1f1f21;
+	height: 100%;
+	padding: 2%;
+	margin-top: 5%;
+}
+.alternate1
+{
+	background-color: #f8f8ff;
+	padding: 2%;
+	margin-top: 5%;
+	height: 100%;
+}
+p
+{
+	font-size:20px;
+}
+.w3-card-4
+{
+	padding: 2%;
+	margin: 10px;
+	background: #f8f8ff;
+
+}
+#myCarousel
+{
+	height: 50%;
+	width: 80%;
+	margin-top: 2%;
+}
+.w3-panel
+{
+	background-color: #1f1f21;
+	width: 70%;
+	color: white;
+}
+.extracurricular
+{
+	padding: 20px;
+} 
+.container-fluid
+{
+	margin: 0px;
+	
+}
+.certificate
+{
+	width:800px; height: 600px; padding:2%;
+}
+@media(max-width:1350px)
+{
+	#top
+	{
+		margin-top:-7%;
+	}
+	.container-fluid {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+      height: 100%;
+      width: 100%;
+    }
+    #myCarousel
+    {
+    	width:100%;
+    }
+    .myimage2
+    {
+    	height: 80%;
+    	width: 80%;
+    }
+    .certificate
+{
+	width:800px; height: 600px; padding:2%;
+}
+}
+@media(max-width:992px)
+{
+.myimage2
+    {
+    	height: 60%;
+    	width: 60%;
+    }
+ .titles
+   {
+   	font-size: 30px;
+   }
+   #top
+   {
+   	margin-top: 2%;
+   }
+   p
+   {
+   	font-size:22px;
+   }
+   .container-fluid {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+      height: 100%;
+      width:100%;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+     #myCarousel
+    {
+    	width:100%;
+    }
+    .certificate
+{
+	width:600px; height: 600px; padding:2%;
+}
+}
+@media(max-width:833px)
+{
+.myimage2
+    {
+    	height: 50%;
+    	width: 50%;
+    }
+ .titles
+   {
+   	font-size: 30px;
+   }
+   #top
+   {
+   	margin-top: -3%;
+   }
+   p
+   {
+   	font-size:22px;
+   }
+    body {
+      padding:0;
+      height: 100%;
+      width:100%;
+    }
+     #myCarousel
+    {
+    	width:100%;
+    }
+    .intern
+{
+	padding: 1%;
+	/*margin: 10px;*/
+	background: #f8f8ff;
+
+}
+}
+@media(max-width:768px) {
+    h1,h2
+    {
+    	font-size:22px;	
+    }
+    h3
+    {
+    	font-size:19px;
+    }
+    .myimage2
+    {
+    	height: 50%;
+    	width: 50%;
+    }
+
+ .titles
+   {
+   	font-size: 20px;
+   }
+   #top
+   {
+   	margin-top: -5%;
+   }
+   p
+   {
+   	font-size:18px;
+   }
+   .container-fluid {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+      height: 100%;
+      width:100%;
+    }
+
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+     #myCarousel
+    {
+    	width:100%;
+    }
+    .intern
+{
+	padding: 1%;
+	/*margin: 10px;*/
+
+}
+}
+@media(max-width:610px)
+{
+.myimage2
+    {
+    	height: 50%;
+    	width: 50%;
+    }
+    .intro
+    {
+    	margin-top: 10px;
+    }
+   .titles
+   {
+   	font-size: 30px;
+   }
+   #top
+   {
+   	margin-top: -10%;
+   }
+   .card-text
+   {
+   	font-size:18px;
+   }
+   .container-fluid {
+      padding:0px;
+      margin:0px;
+    }
+
+   body {
+     	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+    .alternate,.alternate1
+    {
+    box-shadow: 2px 2px 2px 2px darkgrey, inset 2px 2px 2px 2px darkgrey;	
+    }
+     #myCarousel
+    {
+    	width:100%;
+    }
+    .intern
+{
+	padding: 0.5%;
+/*	margin: 10px;*/
+    box-shadow: 2px 2px 2px 2px darkgrey, inset 2px 2px 2px 2px darkgrey;
+}
+}
+@media(max-width:480px)
+{
+.myimage2
+    {
+    	height: 50%;
+    	width: 50%;
+    }
+    .intro
+    {
+    	margin-top: 10px;
+    }
+   .titles
+   {
+   	font-size: 30px;
+   }
+   #top
+   {
+   	margin-top: -10%;
+   }
+   .card-text
+   {
+   	font-size:18px;
+   }
+   .container-fluid {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+      height: 100%;
+      width:100%;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+        .alternate,.alternate1
+    {
+    box-shadow: 2px 2px 2px 2px darkgrey, inset 2px 2px 2px 2px darkgrey;	
+    }
+     #myCarousel
+    {
+    	width:100%;
+    }
+    .intern
+{
+	padding: 2%;
+	/*margin: 5px;*/
+   /* box-shadow: 5px 5px 5px 5px darkgrey, inset 5px 5px 5px 5px darkgrey;*/
+    width:100%;
+}
+.w3-panel
+{
+width:100%;
+}
+.introback
+{
+  width:100%;
+  margin-left: 0px;
+}
+}
